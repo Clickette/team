@@ -1,1 +1,2 @@
 title: clickette
+exclude: ['./README.md']
