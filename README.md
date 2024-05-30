@@ -1,4 +1,4 @@
-![Clickette](https://clickette.net/u/zlp0e8.png)
+![Clickette](https://clickette.net/u/xarzOA.svg)
 
 ### We're clickette, the team that makes stuff that you click on.
 
