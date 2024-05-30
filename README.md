@@ -1,3 +1,7 @@
+---
+title: Clickette
+---
+
 ![Clickette](https://clickette.net/u/xarzOA.svg)
 
 ### We're clickette, the team that makes stuff that you click on.
