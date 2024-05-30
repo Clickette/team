@@ -1,5 +1,5 @@
 ---
-title: clickette
+title: Team
 ---
 
 ![Clickette](https://clickette.net/u/xarzOA.svg)
