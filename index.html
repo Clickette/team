@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickette</title>
+    <link rel="icon" type="image/png" href="image/favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://clickette.instatus.com/en/2c5eddda/widget/script.js"></script>
+    <style>
+        body {
+          background: linear-gradient(to bottom, #1D1A27, #15131C);
+        }
+        .click {
+            color: #7D7794;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-white">
+
+  <div class="sticky justify-center w-full mx-auto bg-gradient-to-b from-black/50 to-transparent">
+    <div class="flex items-center justify-center h-12 text-white bg-transparent">
+      <div class="flex items-center justify-center gap-4">
+        <div class="text-xs font-medium">
+          <span>Clickette Search has just been updated</span>
+        </div>
+        <div class="hidden w-px h-6 sm:block bg-white/20"></div>
+        <div>
+          <a class="text-xs flex font-semibold items-center justify-center px-4 py-2 rounded-lg transition-all h-8 text-white bg-gradient-to-b from-white/[.105] hover:to-white/[.25] ring-1 ring-inset ring-white/20 to-white/[.15]" href="https://github.com/Clickette/search">Learn more &nbsp; 🡪</a>
+        </div>
+      </div>
+    </div>
+    <div x-data="{ open: false }" class="flex flex-col items-center justify-center w-full px-8 py-2 mx-auto md:px-12 md:flex-row lg:px-32 max-w-7xl">
+      <div class="flex flex-row items-center justify-center w-full text-black">
+        <a class="inline-flex items-center justify-center gap-3 text-xl font-bold tracking-tight text-black" href="/">
+          <img class="w-32" src="image/logo.svg">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+
+  <section class="relative flex items-center justify-center">
+    <div class="relative items-center w-full px-5 py-12 mx-auto max-w-7xl lg:px-16 lg:py-32 md:px-12">
+      <div>
+        <div class="text-center">
+          <span class="bg-[#7D7794]/10 px-4 py-2 rounded-full w-auto"><span class="text-sm text-white/40">Welcome to Team Clickette</span></span>
+          <p class="mt-8 text-3xl font-extrabold tracking-tight text-slate-200 lg:text-6xl">
+            The team that makes
+            <span class="lg:block">the stuff you click</span>
+          </p>
+          <p class="max-w-xl mx-auto mt-4 text-base lg:text-xl text-slate-500">
+            We create multiple open source and powerful utilites for
+            you and similar open source projects to use for free.
+          </p>
+          <div class="flex flex-col items-center justify-center gap-2 mx-auto mt-8 md:flex-row">
+            <a href="https://github.com/Clickette">
+            <button class="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium text-white duration-200 bg-[#7D7794] md:w-auto rounded-xl hover:bg-[#575071]" aria-label="Primary action">
+              Repositories
+            </button>
+            </a>
+            <a href="https://clickette.instatus.com">
+            <button class="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium text-white duration-200 bg-[#7D7794] md:w-auto rounded-xl hover:bg-[#575071]" aria-label="Primary action">
+              Status Page
+            </button>
+            </a>
+      </div>
+        </div>
+      </div>
+      <div class="relative items-center w-full py-12 pb-12 mx-auto mt-12 max-w-7xl">
+        <svg class="absolute -mt-24 blur-3xl" fill="none" viewBox="0 0 400 400" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_10_20)">
+            <g filter="url(#filter0_f_10_20)">
+              <path d="M128.6 0H0V322.2L106.2 134.75L128.6 0Z" fill="#03FFE0"></path>
+              <path d="M0 322.2V400H240H320L106.2 134.75L0 322.2Z" fill="#7C87F8"></path>
+              <path d="M320 400H400V78.75L106.2 134.75L320 400Z" fill="#4C65E4"></path>
+              <path d="M400 0H128.6L106.2 134.75L400 78.75V0Z" fill="#043AFF"></path>
+            </g>
+          </g>
+          <defs>
+            <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="720.666" id="filter0_f_10_20" width="720.666" x="-160.333" y="-160.333">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+              <feBlend in="SourceGraphic" in2="BackgroundImageFix" mode="normal" result="shape"></feBlend>
+              <feGaussianBlur result="effect1_foregroundBlur_10_20" stdDeviation="80.1666"></feGaussianBlur>
+            </filter>
+          </defs>
+        </svg>
+        <img alt="" class="relative object-cover w-full rounded shadow-2xl lg:rounded-2xl" src="https://clickette.net/r/YxY2ti.gif?compress=false">
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-7xl">
+      <div class="grid grid-cols-2 text-sm font-medium text-center text-[#7D7794] gap-x-6 gap-y-12 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16 text-balance">
+        <div class="flex flex-col justify-between h-full">
+          <div>
+            <span class="flex items-center justify-center mx-auto bg-[#7D7794] rounded-full size-12"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" class="text-white size-6" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+              <path d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"></path></svg></span>
+          </div>
+          <div class="mt-6">
+            <h3 class="text-base text-white">Clickette Search</h3>
+            <p class="mt-2">
+              An independent search engine that is 
+              open source and free to use.
+            </p>
+            <div class="flex justify-center mt-8">
+              <a href="https://search.clickette.net" class="inline-flex items-center justify-center text-sm font-semibold text-[#7D7794] duration-200 hover:text-[#575071] focus:outline-none" aria-label="Read more about the topic">
+                <span>Read more</span>
+                <svg aria-hidden="true" focusable="false" class="size-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-between h-full">
+          <div>
+            <span class="flex items-center justify-center mx-auto bg-[#7D7794] rounded-full size-12"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"  aria-hidden="true" class="text-white size-6" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+              <path d="M21 3V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3ZM5 16V20H19V16H5ZM15 17H17V19H15V17Z"></path></svg></span>
+          </div>
+          <div class="mt-6">
+            <h3 class="text-base text-white">Clickette Vault</h3>
+            <p class="mt-2">
+              Free to use and powerful file storage
+              and file sharing platform.
+            </p>
+            <div class="flex justify-center mt-8">
+              <a href="https://clickette.net" class="inline-flex items-center justify-center text-sm font-semibold text-[#7D7794] duration-200 hover:text-[#575071] focus:outline-none" aria-label="Read more about the topic">
+                <span>Read more</span>
+                <svg aria-hidden="true" focusable="false" class="size-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-between h-full">
+          <div>
+            <span class="flex items-center justify-center mx-auto bg-[#7D7794] rounded-full size-12"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" class="text-white size-6" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+                <path d="M17.657 14.8284L16.2428 13.4142L17.657 12C19.2191 10.4379 19.2191 7.90526 17.657 6.34316C16.0949 4.78106 13.5622 4.78106 12.0001 6.34316L10.5859 7.75737L9.17171 6.34316L10.5859 4.92895C12.9291 2.5858 16.7281 2.5858 19.0712 4.92895C21.4143 7.27209 21.4143 11.0711 19.0712 13.4142L17.657 14.8284ZM14.8286 17.6569L13.4143 19.0711C11.0712 21.4142 7.27221 21.4142 4.92907 19.0711C2.58592 16.7279 2.58592 12.9289 4.92907 10.5858L6.34328 9.17159L7.75749 10.5858L6.34328 12C4.78118 13.5621 4.78118 16.0948 6.34328 17.6569C7.90538 19.219 10.438 19.219 12.0001 17.6569L13.4143 16.2427L14.8286 17.6569ZM14.8286 7.75737L16.2428 9.17159L9.17171 16.2427L7.75749 14.8284L14.8286 7.75737ZM5.77539 2.29291L7.70724 1.77527L8.74252 5.63897L6.81067 6.15661L5.77539 2.29291ZM15.2578 18.3611L17.1896 17.8434L18.2249 21.7071L16.293 22.2248L15.2578 18.3611ZM2.29303 5.77527L6.15673 6.81054L5.63909 8.7424L1.77539 7.70712L2.29303 5.77527ZM18.3612 15.2576L22.2249 16.2929L21.7072 18.2248L17.8435 17.1895L18.3612 15.2576Z"></path></svg></span>
+          </div>
+          <div class="mt-6">
+            <h3 class="text-base text-white">Search API</h3>
+            <p class="mt-2">
+              An independent search api powering 
+              our open source search engine.
+            </p>
+            <div class="flex justify-center mt-8">
+              <a href="https://api.clickette.net/" class="inline-flex items-center justify-center text-sm font-semibold text-[#7D7794] duration-200 hover:text-[#575071] focus:outline-none" aria-label="Read more about the topic">
+                <span>Read more</span>
+                <svg aria-hidden="true" focusable="false" class="size-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-7xl">
+      <div>
+        <h1 class="text-4xl font-semibold tracking-tighter text-slate-200 lg:text-5xl">
+          The people behind
+          <span class="block text-[#7D7794]">clickette projects</span>
+        </h1>
+      <ul role="list" class="mt-12 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-12">
+        <li>
+          <div class="flex flex-col gap-4">
+            <img class="object-cover rounded-full size-16 lg:size-20" src="https://avatars.githubusercontent.com/u/110255725?s=128" alt="">
+            <div class="space-y-1">
+              <h3 class="text-lg font-medium leading-6 text-white">
+                hamhim
+              </h3>
+              <p class="text-base text-[#7D7794]">Lead Dev & Designer</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="flex flex-col gap-4">
+            <img class="object-cover rounded-full size-16 lg:size-20" src="https://avatars.githubusercontent.com/u/71360210?s=128" alt="">
+            <div class="space-y-1">
+              <h3 class="text-lg font-medium leading-6 text-white">
+                ClaytonTDM
+              </h3>
+              <p class="text-base text-[#7D7794]">Lead Dev & Founder</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="flex flex-col gap-4">
+            <img class="object-cover rounded-full size-16 lg:size-20" src="https://avatars.githubusercontent.com/u/81354905?s=128" alt="">
+            <div class="space-y-1">
+              <h3 class="text-lg font-medium leading-6 text-white">
+                TheUnium
+              </h3>
+              <p class="text-base text-[#7D7794]">Developer & Mod</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="flex flex-col gap-4">
+            <img class="object-cover rounded-full size-16 lg:size-20" src="https://avatars.githubusercontent.com/u/79881161?s=128" alt="">
+            <div class="space-y-1">
+              <h3 class="text-lg font-medium leading-6 text-white">
+                Armando Hinojosa
+              </h3>
+              <p class="text-base text-[#7D7794]">Developer & Mod</p>
+            </div>
+          </div>
+        </li>
+  
+      </ul>
+    </div>
+  </div></section>
+
+
+  <section>
+    <div class="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-7xl">
+      <div class="grid gap-12 lg:grid-cols-2">
+        <div>
+          <h1 class="text-4xl font-semibold tracking-tighter text-slate-200 lg:text-5xl">
+            Clickette is monitored
+            <span class="block text-[#7D7794]">for your safety</span>
+          </h1>
+          <p class="mt-4 text-base font-medium text-[#7D7794]">
+            We prioritize your privacy and safety.
+            Our repositories are moderated and checked, along
+            with our upcoming Discord server.
+          </p>
+        </div>
+        <div>
+          <ul role="list" class="flex flex-col gap-12">
+            <li>
+              <div class="flex items-center space-x-4 lg:space-x-6">
+                <img class="object-cover w-16 h-16 rounded-full lg:h-20 lg:w-20" src="https://avatars.githubusercontent.com/u/116967343?s=128" alt="">
+                <div class="space-y-1">
+                  <h3 class="text-lg font-medium leading-6 text-white">
+                    roblnet13
+                  </h3>
+                  <p class="text-base text-[#7D7794]">Content Moderator</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="flex items-center space-x-4 lg:space-x-6">
+                <img class="object-cover w-16 h-16 rounded-full lg:h-20 lg:w-20" src="https://images-ext-1.discordapp.net/external/RKzmCpyMxm54XorIG2Gfuk--5B7tLudRZzDot1fSP4k/https/cdn.discordapp.com/avatars/1050070385258942517/b1d5c7d44bea25d696092a551fc72a75.webp?format=webp" alt="">
+                <div class="space-y-1">
+                  <h3 class="text-lg font-medium leading-6 text-white">
+                    claniverse
+                  </h3>
+                  <p class="text-base text-[#7D7794]">Developer & Helper</p>
+                </div>
+              </div>
+            </li>
+            <!-- More humans... -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="flex flex-col items-center mb-4 w-full px-4 md:px-0">
+    <div class="flex flex-col md:flex-row justify-center items-center w-full mb-2">
+        <!-- lt links -->
+        <div class="text-center mb-4 md:mb-0 md:mr-4">
+            <p><a class="my-2 relative font-medium text-[#7D7794] hover:text-[#C9503B] before:absolute before:h-0.5 before:w-full before:-bottom-0.5 before:origin-center before:scale-x-0 before:bg-gradient-to-l before:from-[#EE6D15] before:to-[#C74900] before:transition hover:before:scale-100" href="https://clickette.net/contact">Contact Us</a></p>
+            <p><a class="my-2 relative font-medium text-[#7D7794] hover:text-[#C9503B] before:absolute before:h-0.5 before:w-full before:-bottom-0.5 before:origin-center before:scale-x-0 before:bg-gradient-to-l before:from-[#EE6D15] before:to-[#C74900] before:transition hover:before:scale-100" href="https://clickette.net/">Clickette Vault</a></p>
+        </div>
+        <!-- footr image -->
+        <img src="image/logo2.svg" alt="Bottom Image" class="transition ease-in-out shadow hover:drop-shadow-[0_3px_0px_rgba(87,80,113,0.25)] mx-4 w-16 md:w-24">
+        <!-- rt links -->
+        <div class="text-center mt-4 md:mt-0 md:ml-4">
+            <p><a class="my-2 relative font-medium text-[#7D7794] hover:text-[#C9503B] before:absolute before:h-0.5 before:w-full before:-bottom-0.5 before:origin-center before:scale-x-0 before:bg-gradient-to-l before:from-[#EE6D15] before:to-[#C74900] before:transition hover:before:scale-100" href="https://clickette.net/terms">Terms of Service</a></p>
+            <p><a class="my-2 relative font-medium text-[#7D7794] hover:text-[#C9503B] before:absolute before:h-0.5 before:w-full before:-bottom-0.5 before:origin-center before:scale-x-0 before:bg-gradient-to-l before:from-[#EE6D15] before:to-[#C74900] before:transition hover:before:scale-100" href="https://clickette.net/privacy">Privacy Policy</a></p>
+        </div>
+    </div>
+    <!-- footer Text -->
+    <p style="color: #7D7794;" class="text-center text-sm mt-2">We never put trackers on you, ever. Powered by <a style="color: #6A618A;" href="https://github.com/Clickette" class="transition ease-in-out shadow hover:drop-shadow-[0_2px_0px_rgba(87,80,113,0.25)]">Open Source</a>.</p>
+</div>
+</body>
+</html>
