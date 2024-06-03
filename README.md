@@ -1,4 +1,4 @@
-![Clickette](https://clickette.net/u/xarzOA.svg)
+![Clickette](https://clickette.net/assets-homepage/img/wordmark-color.svg)
 
 ### We're clickette, the team that makes stuff that you click on.
 
