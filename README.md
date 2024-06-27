@@ -24,7 +24,7 @@ Lead Dev
 
 ##### [UNIUM](https://github.com/theunium)
 
-Dev
+Dev & Designer
 
 <img align="left" src="https://avatars.githubusercontent.com/u/79881161?s=70">
 
