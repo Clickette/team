@@ -26,12 +26,6 @@ Lead Dev
 
 Dev & Designer
 
-<img align="left" src="https://avatars.githubusercontent.com/u/79881161?s=70">
-
-##### [XAI](https://github.com/xytrux)
-
-Dev
-
 <img align="left" src="https://avatars.githubusercontent.com/u/116967343?s=70">
 
 ##### [ONION](https://github.com/roblnet13)
