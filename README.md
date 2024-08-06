@@ -1,11 +1,5 @@
 ![Clickette](https://clickette.net/assets-homepage/img/wordmark-color.svg)
 
-### We're clickette, the team that makes stuff that you click on.
-
-**Links 🡪** ・ [**Website**](https://team.clickette.net/) ・ [**Search**](https://search.clickette.net) ・ [**Vault**](https://clickette.net)
-
----
-  
 ## The Team
 
 <img align="left" src="https://avatars.githubusercontent.com/u/110255725?s=70">
@@ -31,7 +25,3 @@ Dev & Designer
 ##### [ONION](https://github.com/roblnet13)
 
 Content Moderator
-
----
-
-##### © ・ Clickette & hamhim ・ Clickette is a part of hamhim ・ All rights reserved.
