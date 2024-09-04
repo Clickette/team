@@ -1,4 +1,4 @@
-![Clickette](https://clickette.net/assets-homepage/img/wordmark-color.svg)
+![Clickette](https://clickette.net/assets-homepage/img/wordmark-shadow.png)
 
 ## The Team
 
